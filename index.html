@@ -15,9 +15,9 @@
         <div class="contenedor contenido-header">
             <h1>Titopalooza</h1>
             <nav class="navegacion-principal">
-                <a href="#">Line up</a>
-                <a href="#">Galería</a>
-                <a href="#">Boletos</a>
+                <a href="#lineup">Line up</a>
+                <a href="#galeria">Galería</a>
+                <a href="#boletos">Boletos</a>
             </nav>
         </div>
     </header>
@@ -48,7 +48,7 @@
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita laborum doloribus natus quasi. Fuga, doloremque? Cupiditate quisquam commodi enim delectus laboriosam veritatis quidem quasi beatae totam nam, vero quae perferendis.</p>
         </div>
     </section>
-    <section class="lineup">
+    <section id="lineup" class="lineup scroll-init">
         <h3>Line Up</h3>
         <p class="dia">Viernes 13</p>
         <div class="escenario-contenedor contenedor">
@@ -156,16 +156,16 @@
         </div> <!--.escenario-contenedor-->
     </section>
 
-    <section class="galeria contenedor">
+    <section id="galeria" class="galeria contenedor">
         <h3>Galería</h3>
         <ul class="galeria-imagenes">
         </ul>
     </section>
-    <section class="boletos bg-verde">
+    <section id="boletos" class="boletos bg-verde">
         <h3>Boletos</h3>
         <div class="contenedor contenedor-boletos">
             <div class="basico pase">
-                <p>Pase 1 Día</p>
+                <p class="nombre-pase">Pase 1 Día</p>
                 <header class="pase-header">
                     <p>Incluye</p>
                 </header>
@@ -184,7 +184,7 @@
                 </footer>
             </div>
             <div class="premium pase">
-                <p>Pase 2 Días</p>
+                <p class="nombre-pase">Pase 2 Días</p>
                 <header class="pase-header">
                     <p>Incluye</p>
                 </header>
@@ -206,7 +206,9 @@
             </div>
         </div>
     </section>
-
+    <footer class="site-footer">
+        <p>Titopalooza Festival. Todos los derechos Reservados.</p>
+    </footer>
 
     <script src="build/js/app.js"></script>
 </body>
